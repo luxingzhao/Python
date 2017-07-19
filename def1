@@ -1,0 +1,8 @@
+def dis(ou,ko):
+  hou = ou * ko
+  return hou
+
+old_o = float(input('原价：'))
+ki = float(input('折扣率:'))
+dw = dis(old_o,ki)
+print('结果为',dw)
